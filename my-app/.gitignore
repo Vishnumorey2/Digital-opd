@@ -1,0 +1,120 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+package-lock.json
+yarn.lock
+.config.js
+.config.ts
+
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+# Build files
+build/
+dist/
+.expo/
+.expo-shared/
+android/app/build/
+ios/Pods/
+ios/build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs & Cache
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+.idea/
+# typescript
+*.tsbuildinfo
+
+app-example
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/debug.log
+backend/*.log
+
+# Build files
+backend/build/
+frontend/build/
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo-specific files
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# iOS/Android Build Artifacts (if using bare workflow)
+ios/
+android/
+*.xcworkspace
+*.xcodeproj
+Pods/
+*.gradle
+*.keystore
+
+# React Native Metro bundler cache
+metro-cache/
+
+firebase-config.json
+
+# Logs & Debugging files
+debug.log
+*.log
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
